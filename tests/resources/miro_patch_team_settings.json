@@ -1,0 +1,33 @@
+{
+  "organizationId": 3074457345618265000,
+  "teamAccountDiscoverySettings": {
+    "accountDiscovery": "hidden"
+  },
+  "teamCollaborationSettings": {
+    "coOwnerRole": "enabled"
+  },
+  "teamCopyAccessLevelSettings": {
+    "copyAccessLevel": "anyone",
+    "copyAccessLevelLimitation": "anyone"
+  },
+  "teamId": "3074457345618265000",
+  "teamInvitationSettings": {
+    "inviteExternalUsers": "allowed",
+    "whoCanInvite": "only_org_admins"
+  },
+  "teamSharingPolicySettings": {
+    "allowListedDomains": [
+      "string"
+    ],
+    "createAssetAccessLevel": "company_admins",
+    "defaultBoardAccess": "private",
+    "defaultOrganizationAccess": "private",
+    "defaultProjectAccess": "private",
+    "moveBoardToAccount": "allowed",
+    "restrictAllowedDomains": "enabled",
+    "sharingOnAccount": "allowed",
+    "sharingOnOrganization": "allowed",
+    "sharingViaPublicLink": "allowed"
+  },
+  "type": "team-settings"
+}

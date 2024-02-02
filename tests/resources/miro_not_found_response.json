@@ -1,0 +1,6 @@
+{
+  "status": 404,
+  "code": "notFound",
+  "message": "string",
+  "type": "error"
+}

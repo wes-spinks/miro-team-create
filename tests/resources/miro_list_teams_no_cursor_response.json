@@ -1,0 +1,14 @@
+{
+    "limit" : 100,
+    "size" : 2,
+    "data" : [ {
+      "id" : "3458764577187960806",
+      "name" : "Enterprise Sandbox",
+      "type" : "team"
+    }, {
+      "id" : "3458764577203569544",
+      "name" : "team1",
+      "type" : "team"
+    } ],
+    "type" : "cursor-list"
+}

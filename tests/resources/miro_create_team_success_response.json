@@ -1,0 +1,11 @@
+{
+    "id": 3074457345618265000,
+    "name": "My Team",
+    "picture": {
+      "id": 3074457345618261500,
+      "imageURL": "https://miro.images/5252525252/125252/266/144/1/size210.jpg",
+      "originalUrl": "https://miro.com/original-image.jpg",
+      "type": "picture"
+    },
+    "type": "team"
+}

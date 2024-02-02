@@ -1,0 +1,24 @@
+[
+  {
+    "file": "MIRO_REST_TOKEN",
+    "prod": {
+      "path": "ges-automation/miro",
+      "key": "rest.prod.token"
+    },
+    "preprod": {
+      "path": "ges-automation/miro",
+      "key": "rest.preprod.token"
+    }
+  },
+  {
+    "file": "rhit-ca.crt",
+    "prod": {
+      "path": "file/rhit-ca-crt",
+      "key": "content"
+    },
+    "preprod": {
+      "path": "file/rhit-ca-crt",
+      "key": "content"
+    }
+  }
+]

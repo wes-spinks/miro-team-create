@@ -1,0 +1,7 @@
+{
+    "EXAMPLE_TEST_USER":"demouser",
+    "FLASK_ENV":"development",
+    "LOG_LVL":"INFO",
+    "ORG_ID": "3458764577187960805",
+    "MIRO_REST_TOKEN": "fake token value"
+}

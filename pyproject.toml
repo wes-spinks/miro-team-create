@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "miro-resource-mgmt"
+version = "0.1.0"
+description = "Miro resource (team and user) management service"
+authors = ["CI Automation <it-ges-automation@redhat.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+flask = "*"
+gunicorn = "*"
+requests = "*"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+flake8 = "*"
+friendly = "*"
+isort = "*"
+pylint = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-black = "*"
+pytest-mock = "*"
+
+[tool.pytest.ini_options]
+junit_duration_report = "call"
+addopts = "--cov=miro_team --cov=app --cov-report term-missing -ra --cov-branch --black"
+testpaths = "tests/"
+
+[tool.isort]
+profile = "black"
+src_paths = ["miro_team.py", "team_configs.py", "app.py", "tests/"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

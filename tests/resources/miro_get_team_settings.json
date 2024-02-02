@@ -1,0 +1,43 @@
+{
+  "teamInvitationSettings" : {
+    "whoCanInvite" : "all_members",
+    "inviteExternalUsersEnabled" : true,
+    "inviteExternalUsers" : "allowed"
+  },
+  "teamCollaborationSettings" : {
+    "coOwnerRoleEnabled" : false,
+    "coOwnerRole" : "disabled"
+  },
+  "teamCopyAccessLevelSettings" : {
+    "copyAccessLevel" : "anyone",
+    "copyAccessLevelLimitation" : "anyone"
+  },
+  "teamSharingPolicySettings" : {
+    "defaultBoardAccess" : "edit",
+    "defaultProjectAccess" : "private",
+    "defaultOrganizationAccess" : "private",
+    "restrictAllowedDomains" : "disabled",
+    "allowListedDomains" : [ ],
+    "sharingOnAccount" : "allowed",
+    "sharingViaPublicLink" : "allowed",
+    "moveBoardToAccount" : "allowed",
+    "sharingOnOrganization" : "allowed",
+    "createAssetAccessLevel" : "all_members",
+    "sharingOnAccountEnabled" : true,
+    "sharingViaPublicLinkEnabled" : true,
+    "editingViaPublicLinkEnabled" : false,
+    "moveBoardToAccountEnabled" : true,
+    "sharingOnOrganizationEnabled" : true,
+    "editingOnOrganizationEnabled" : false,
+    "whiteListDomainsEnabled" : false,
+    "sharingWithExternalUsersEnabled" : false,
+    "sharingWithExternalUsers" : "not_allowed",
+    "whiteListedDomains" : [ ]
+  },
+  "teamAccountDiscoverySettings" : {
+    "accountDiscovery" : "request"
+  },
+  "teamId" : "3458764577203569544",
+  "organizationId" : "3458764577187960805",
+  "type" : "team-settings"
+}

@@ -1,0 +1,13 @@
+include:
+  - project: GES/managed-paas/rehire2snow
+    ref: main
+    file: infrastructure/build-pipeline.yml
+
+variables:
+  APP: "miro-resource-mgmt"
+  APP_NAMESPACE: "${TENANT}--runtime-int"
+  APP_TYPE: "APP" # app, cronjob, service
+  MPP_ROUTE_TYPE: "internal"
+  PY_VER: 39 # Python version (for image selection)
+  PAGES_STAGE: "true"
+
